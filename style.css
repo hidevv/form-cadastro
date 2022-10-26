@@ -142,7 +142,21 @@ body {
     margin-right: 0.35rem;
 }
 
+
 .gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.aniversary {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+}
+.aniversary h6 {
+    margin-bottom: 0.5rem;
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
@@ -168,6 +182,7 @@ body {
     font-weight: 500;
     color: #fff;
 }
+
 
 @media screen and (max-width: 1330px) {
     .form-image {
